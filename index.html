@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>After School Enrichment Program</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        img {
+          border: 3px solid #555;
+        }
+    </style>
+</head>
+<body class="container" style="background-image:linear-gradient(lightblue, white, lightgreen)"> <br>
+    <div class="row">
+        <div class="col-sm-3">
+            <img src="logo.png" height="150px"/>
+        </div>
+        <div class="col-sm-6">
+            <h2 style="text-align: center;">After School Enrichment Program</h2>
+            <p style="text-align: center;">Four after school enrichment sessions will be offered Spring 2023. Each session will have a size limit of 5 students.</p>
+            <p style="text-align: center;"> Coding * Chess * Drawing * Running</p>
+        </div>
+    </div>
+    
+        <div class="card">
+        <div class= "card bg-success text-white">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-session-name">Session Name</label>
+                        <input type="text" class="form-control" id="new-session-name">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button id="new-session" class="btn btn-secondary form control">Create</button>
+            </div>
+        </div>
+    </div><br>
+    <div id="sessions">
+        
+    </div>
+      
+    <script src="school.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
